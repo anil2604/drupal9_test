@@ -32,3 +32,4 @@ content:
 hidden:
   field_name: true
   field_news_date: true
+  langcode: true
