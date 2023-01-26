@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.team.body
-    - field.field.node.team.field_last_name
     - field.field.node.team.field_name
     - field.field.node.team.field_news_date
     - node.type.team
@@ -23,13 +22,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
-    region: content
-  field_last_name:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 104
     region: content
   field_name:
     type: text_default

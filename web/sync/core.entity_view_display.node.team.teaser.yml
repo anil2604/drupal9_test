@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.team.body
-    - field.field.node.team.field_last_name
     - field.field.node.team.field_name
     - field.field.node.team.field_news_date
     - node.type.team
@@ -31,6 +30,5 @@ content:
     weight: 100
     region: content
 hidden:
-  field_last_name: true
   field_name: true
   field_news_date: true
