@@ -1,0 +1,7 @@
+custom_template_routing.landingpage:
+ path: 'template-overview'
+ defaults:
+  _controller: '\Drupal\article\Controller\CustomRoute::content'
+  _title: 'Template overview'
+ requirements:
+  _permission: 'access content'

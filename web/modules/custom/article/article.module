@@ -1,0 +1,33 @@
+<?php
+    /**
+    * Implements hook_theme().
+    */
+    function article_theme($existing, $type, $theme, $path) {
+        return [
+            'template_overview' => [
+                'render element' => 'children',
+                'template' => 'template-overview',
+                'path' => $path . '/templates',
+                'variables' => [
+                    'org_name' => '',
+                    'website_link' => "",
+                    'results' => NULL,
+                ],
+            ],
+            'my_template' => [
+                'variables' => ['test_var' => NULL],
+            ],
+        ];
+    }
+
+    /**
+    * Implements hook_cron().
+    */
+    function article_cron() {
+        \Drupal::logger('article')->info('Test.....');
+        $last_run_per_minut = \Drupal::state()->get('article.last_run', 0);
+        if ((REQUEST_TIME - $last_run_per_minut) > 600) {
+            \Drupal::logger('article')->info('Runnning Cron every 5 minut log');
+            \Drupal::state()->set('article.last_run', REQUEST_TIME);
+        }   
+    }
