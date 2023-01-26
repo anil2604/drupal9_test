@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.team.body
+    - field.field.node.team.field_news_date
     - node.type.team
   module:
+    - datetime
     - path
     - text
 id: node.team.default
@@ -26,6 +28,12 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_news_date:
+    type: datetime_default
+    weight: 122
     region: content
     settings: {  }
     third_party_settings: {  }

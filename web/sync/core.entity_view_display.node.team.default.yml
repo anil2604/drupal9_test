@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.team.body
+    - field.field.node.team.field_news_date
     - node.type.team
   module:
+    - datetime
     - text
     - user
 id: node.team.default
@@ -19,6 +21,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_news_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
     region: content
   links:
     settings: {  }
