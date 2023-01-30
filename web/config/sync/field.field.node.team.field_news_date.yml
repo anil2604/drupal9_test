@@ -1,0 +1,21 @@
+uuid: 772d3094-898a-4e85-bdad-e042d1114298
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_date
+    - node.type.team
+  module:
+    - datetime
+id: node.team.field_news_date
+field_name: field_news_date
+entity_type: node
+bundle: team
+label: 'Team Date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

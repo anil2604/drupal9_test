@@ -1,0 +1,21 @@
+uuid: cc303751-d0a8-4ef3-a717-86c559b09757
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.team
+  module:
+    - text
+id: node.team.field_name
+field_name: field_name
+entity_type: node
+bundle: team
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

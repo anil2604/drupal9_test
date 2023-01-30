@@ -1,0 +1,21 @@
+uuid: 5a13505a-70fd-4398-a752-f72febf1a5e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_type
+    - taxonomy.vocabulary.game
+  module:
+    - text
+id: taxonomy_term.game.field_type
+field_name: field_type
+entity_type: taxonomy_term
+bundle: game
+label: Type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

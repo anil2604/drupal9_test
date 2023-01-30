@@ -1,0 +1,25 @@
+uuid: 88ffa276-716d-415b-9f46-45ec91da633f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:65937f9f-1e01-4680-b7ec-9459f981abae'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: 2ndblock
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:65937f9f-1e01-4680-b7ec-9459f981abae'
+settings:
+  id: 'block_content:65937f9f-1e01-4680-b7ec-9459f981abae'
+  label: '2nd Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

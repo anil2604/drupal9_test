@@ -1,0 +1,30 @@
+uuid: c15860dc-8796-4a01-ac2c-6879914e0dac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.game.field_type
+    - taxonomy.vocabulary.game
+  module:
+    - text
+id: taxonomy_term.game.default
+targetEntityType: taxonomy_term
+bundle: game
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_type:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

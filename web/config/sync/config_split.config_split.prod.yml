@@ -1,0 +1,16 @@
+uuid: 580768a3-f9fb-4322-bd22-134d96af947f
+langcode: en
+status: true
+dependencies: {  }
+id: prod
+label: Prod
+description: 'test production............'
+weight: 0
+folder: web/config/prod
+module: {  }
+theme: {  }
+blacklist:
+  - system.site
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
