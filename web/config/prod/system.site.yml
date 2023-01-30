@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: be9abd57-ebde-4b54-b02e-5115ac04064c
+name: 'Production... Test.....'
+mail: anilpatoliya619@gmail.com
+slogan: 'This is production environment for testing................'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

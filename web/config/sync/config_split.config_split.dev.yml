@@ -6,7 +6,7 @@ id: dev
 label: Dev
 description: 'test dev........................'
 weight: 0
-folder: web/config/dev
+folder: config/dev
 module: {  }
 theme: {  }
 blacklist:

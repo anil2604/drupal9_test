@@ -6,7 +6,7 @@ id: prod
 label: Prod
 description: 'test production............'
 weight: 0
-folder: web/config/prod
+folder: config/prod
 module: {  }
 theme: {  }
 blacklist:
