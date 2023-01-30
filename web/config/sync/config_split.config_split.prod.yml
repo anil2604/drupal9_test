@@ -10,6 +10,7 @@ folder: web/config/prod
 module: {  }
 theme: {  }
 blacklist:
+  - system.file
   - system.site
 graylist: {  }
 graylist_dependents: true
